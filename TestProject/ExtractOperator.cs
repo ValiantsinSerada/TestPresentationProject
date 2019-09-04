@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace TestProject
 {
-    public class Class1
+    public enum ExtractOperator
     {
+        Text,
+        Attribute
     }
 }
