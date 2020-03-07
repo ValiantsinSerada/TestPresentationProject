@@ -11,7 +11,7 @@ schedules:
   displayName: M-F 3:00 AM (UTC + 5:30) India daily build
   branches:
     include:
-    - /master/*
+    - /*
 
 pool:
   vmImage: 'windows-latest'
