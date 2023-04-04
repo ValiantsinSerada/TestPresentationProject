@@ -1,0 +1,18 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: .NET Core Desktop
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  activation:
+    name: Print the input
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print puppy type
+        id: printPuppyType
+        run: 'echo "There is no puppy for this job with no inputs :("'
